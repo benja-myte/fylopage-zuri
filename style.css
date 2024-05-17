@@ -1,0 +1,630 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+#menu{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    padding: 2% 0%;
+}
+
+.menu-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2%;
+}
+
+.menu-div .logo{
+    width: 200px;
+    height: auto;
+}
+
+.menu-div .logo img{
+    width: 100%;
+    height: auto;
+}
+
+/* .menu-div nav{
+    border: 1px solid black;
+} */
+.menu-div nav li{
+    font-weight: 600;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 50px;
+    color: rgb(172, 122, 219);
+    cursor: pointer;
+}
+
+/* header section */
+
+header{
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+}
+
+header .head{
+    width: 44%;
+    height: 80%;
+    /* border: 1px solid red; */
+}
+
+header .head h1{
+    font-size: 36px;
+    color: rgb(37, 0, 71);
+    margin-top: 100px;
+}
+
+header .head p{
+    font-size: 17px;
+    color: rgb(37, 0, 71);
+    font-family: "Poppins", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+header .head input{
+    width: 300px;
+    height: 20px;
+    padding: 1%;
+    color: gray;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+header .head input::placeholder{
+    color: rgb(177, 177, 177);
+    padding-left: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+header .head button{
+    width: 150px;
+    height: 33px;
+    margin-left: 20px;
+    background-color: rgb(0, 59, 168);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+header .head button:hover{
+    background-color: rgb(172, 122, 219);
+}
+
+
+header .head img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Product section */
+
+#Product{
+    width: 100%;
+    height: 110vh;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    /* border: 1px solid green; */
+}
+
+.pro-div{
+    width: 44%;
+    height: auto;
+    margin: 2% 2%;
+    /* border: 1px solid green; */
+}
+
+.pro-div h1{
+    font-size: 32px;
+    color: rgb(37, 0, 71);
+    margin-top: 50px;
+}
+
+.pro-div p{
+    font-size: 14px;
+    color: rgb(37, 0, 71);
+    margin-top: 10px;
+}
+
+.pro-div a{
+    color: rgb(35, 139, 79);
+    font-size: 14px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(35, 139, 79);
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.pro-div a:hover{
+    color: rgb(172, 122, 219);
+    border-bottom: 1px solid rgb(172, 122, 219);
+}
+
+.comment{
+    width: 60%;
+    padding: 3% 3%;
+    margin-left: 30px;
+    margin-top: 40px;
+    background-color: white;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    /* border: 1px solid yellow; */
+}
+
+.comment:hover{
+    box-shadow: 0px 0px 20px rgb(35, 139, 79);
+}
+
+.comment i{
+    font-size: 40px;
+}
+
+.comment p{
+    font-size: 14px;
+}
+
+.com-img{
+    display: flex;
+    /* border: 1px solid purple; */
+}
+
+.com-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px 10px;
+}
+
+.com-text{
+    margin-left: 10px;
+    /* border: 1px solid blue; */
+}
+.com-text p{
+    font-size: 14px;
+}
+.com-text p strong{
+    font-size: 16px;
+}
+
+.pro-div .mage{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+/* Access section */
+
+
+#access{
+    width: 100%;
+    height: 30vh;
+    color: white;
+    padding: 2% 0;
+    background-color: rgb(66, 66, 129);
+    display: flex;
+    justify-content: center;
+}
+
+.aces-div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 2%;
+}
+
+.aces-text{
+    width: 40%;
+    margin-right: -50px;
+}
+
+.aces-text h1{
+    font-size: 32px;
+}
+
+.aces-text p{
+    font-size: 14px;
+}
+
+.aces-input{
+    width: 40%;
+    margin-left: -50px;
+}
+
+.aces-input input{
+    width: 450px;
+    height: 35px;
+    color: gray;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 2%;
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+.aces-input input::placeholder{
+    color: gray;
+    padding-left: 20px;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+}
+
+.aces-input button{
+    width: 180px;
+    height: 40px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    background-color: royalblue;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+/* Footer section */
+
+footer{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(36, 18, 104);
+    padding: 5% 0;
+}
+
+#foot-sect{
+    width: 90%;
+    height: 90%;
+    margin: 0 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot-div{
+    color: white;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.foot-div img{
+    width: 250px;
+    height: auto;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.foot-div p{
+    margin-top: 20px;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+.foot-div p:hover{
+    color: rgb(149, 185, 252);
+}
+
+.foot-div ol{
+    padding-top: 70px;
+}
+
+.foot-div ol li{
+    list-style-type: none;
+    margin-left: -10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+.foot-div li:hover{
+    color: rgb(149, 185, 252);
+}
+
+.foot-div .fa-facebook-f{
+    margin-top: 110px;
+    padding: 5px 8px;
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.foot-div .fa-facebook-f:hover{
+    color: rgb(149, 185, 252);
+    border: 2px solid rgb(149, 185, 252);
+}
+
+.foot-div .fa-twitter, .fa-instagram{
+    margin-left: 10px;
+    padding: 5px 5px;
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.foot-div .fa-twitter:hover{
+    color: rgb(149, 185, 252);
+    border: 2px solid rgb(149, 185, 252);
+}
+
+.foot-div .fa-instagram:hover{
+    color: rgb(149, 185, 252);
+    border: 2px solid rgb(149, 185, 252);
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .menu-div .logo{
+        width: 150px;
+        height: auto;
+    }
+    
+    .menu-div .logo img{
+        width: 100%;
+        height: auto;
+    }
+ 
+    .menu-div nav li{
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+
+    /* header section */
+
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+header .head{
+    width: 100%;
+    height: auto;
+}
+
+header .head h1{
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+header .head p{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+header .head form{
+    width: 100%;
+    padding: 2% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .head input{
+    width: 75%;
+    height: 20px;
+}
+
+
+header .head button{
+    width: 78%;
+    height: 33px;
+    margin-top: 20px;
+    margin-left: -5px;
+}
+
+
+header .head img{
+    margin-top: 50px;
+}
+
+
+/* Product section */
+
+#Product{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.pro-div{
+    width: 100%;
+    height: auto;
+    margin: 0% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pro-div h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+.pro-div p{
+    font-size: 12px;
+    text-align: center;
+}
+
+.pro-div .comment{
+    margin-bottom: 50px;
+}
+
+
+/* Access section */
+
+
+#access{
+    width: 100%;
+    height: auto;
+    padding: 5% 0%;
+}
+
+.aces-div{
+    width: 96%;
+    height: 96%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2%;
+}
+
+.aces-text{
+    width: 90%;
+    margin-right: 0px;
+    text-align: center;
+}
+
+.aces-text h1{
+    font-size: 28px;
+}
+
+.aces-text p{
+    font-size: 12px;
+}
+
+.aces-input{
+    width: 90%;
+    margin-left: 0px;
+}
+
+.aces-input form{
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aces-input input{
+    width: 90%;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.aces-input button{
+    width: 93%;
+    height: 40px;
+    margin-top: -10px;
+}
+
+
+/* Footer section */
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(36, 18, 104);
+    padding: 5% 0;
+}
+
+#foot-sect{
+    width: 90%;
+    height: 90%;
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-div{
+    color: white;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.foot-div img{
+    width: 200px;
+    height: auto;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.foot-div p{
+    margin-top: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+.foot-div p:hover{
+    color: rgb(149, 185, 252);
+}
+
+.foot-div ol{
+    padding-top: 10px;
+}
+
+.foot-div ol li{
+    list-style-type: none;
+    margin-left: -10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+.foot-div li:hover{
+    color: rgb(149, 185, 252);
+}
+
+.icons{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.icons i{
+    text-align: center;
+}
+
+.foot-div .fa-facebook-f{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 35%;
+    padding: 5px 8px;
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.foot-div .fa-twitter, .fa-instagram{
+    margin-left: 10px;
+    padding: 5px 5px;
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+
+}
