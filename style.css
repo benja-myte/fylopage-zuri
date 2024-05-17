@@ -410,13 +410,13 @@ header .head{
 }
 
 header .head h1{
-    font-size: 28px;
+    font-size: 24px;
     margin-top: 50px;
     text-align: center;
 }
 
 header .head p{
-    font-size: 12px;
+    font-size: 10px;
     margin-top: 10px;
     margin-bottom: 30px;
     text-align: center;
@@ -473,11 +473,12 @@ header .head img{
 }
 
 .pro-div p{
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
 }
 
 .comment{
+    width: 80%;
     margin-bottom: 50px;
     margin-left: 0px;
 }
