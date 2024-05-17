@@ -410,7 +410,7 @@ header .head{
 }
 
 header .head h1{
-    font-size: 30px;
+    font-size: 28px;
     margin-top: 50px;
     text-align: center;
 }
@@ -477,8 +477,13 @@ header .head img{
     text-align: center;
 }
 
-.pro-div .comment{
+.comment{
     margin-bottom: 50px;
+    margin-left: 0px;
+}
+
+.comment p{
+    font-size: 12px;
 }
 
 
